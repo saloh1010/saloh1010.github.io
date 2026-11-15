@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salohiddin | IT student at Inha University in Tashkent</title>
+<meta name="description" content="Personal homepage of Salohiddin, a first-year IT student at Inha University in Tashkent.">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body id="top">
+<header class="bar">
+  <a class="logo" href="#top" aria-label="Home">S<span>.</span></a>
+  <nav aria-label="Main">
+    <a href="#about">About</a><a href="#courses">Courses</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" type="button" aria-label="Switch between light and dark mode">◐</button>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Student field notes</p>
+    <h1>Hi, I’m <em>Salohiddin.</em></h1>
+    <p class="lead">I’m a first-year IT student at Inha University in Tashkent. I’m learning how computers, networks and the Internet really work, one lab at a time.</p>
+    <a class="btn" href="#projects">Explore my projects</a>
+  </section>
+
+  <section id="about">
+    <h2><small>01</small> About me</h2>
+    <div class="split">
+      <p>I study IT at Inha University in Tashkent. In my labs I trace packets across routers, read DNS answers, write C++ programs and build small circuits, because I understand things best when I test them myself.</p>
+      <ul class="facts">
+        <li><b>University</b> Inha University in Tashkent</li>
+        <li><b>Year</b> First year, IT</li>
+        <li><b>Student ID</b> u2610340</li>
+        <li><b>Learning</b> Networks, Linux, C++, Calculus</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="courses">
+    <h2><small>02</small> My courses</h2>
+    <div class="cards">
+      <article class="card"><span class="ico">&lt;/&gt;</span><h3>Introduction to IT</h3><p>How computers store data, run programs and talk over networks: from logic circuits to the Linux terminal.</p></article>
+      <article class="card"><span class="ico">∫</span><h3>Calculus</h3><p>Limits, continuity and derivatives, and how they describe change.</p></article>
+      <article class="card"><span class="ico">Aa</span><h3>English</h3><p>Clear writing and speaking, including a presentation on why learning languages matters.</p></article>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2><small>03</small> Projects</h2>
+    <article class="card wide">
+      <h3>Network detective (Lab 8a)</h3>
+      <p>A lab where I investigated my own connection: addresses, packets, routes, DNS and HTTPS.</p>
+      <dl class="stats">
+        <div><dt>My ISP</dt><dd>Uzbektelekom (AS8193)</dd></div>
+        <div><dt>Router made by</dt><dd>Fortinet, Inc.</dd></div>
+        <div><dt>inha.uz certificate</dt><dd>Issued by Sectigo</dd></div>
+      </dl>
+      <ul class="notes">
+        <li><b>ARP:</b> the laptop asks everyone “who has this IP?” and only the router answers.</li>
+        <li><b>TTL and traceroute:</b> each router subtracts 1, so I can list every hop.</li>
+        <li><b>DNS:</b> a name is resolved step by step, from root to the authoritative server.</li>
+        <li><b>HTTP vs HTTPS:</b> over HTTP anyone on Wi-Fi can read a password; HTTPS hides it.</li>
+      </ul>
+    </article>
+    <article class="card wide">
+      <h3>This homepage</h3>
+      <p>Built with plain HTML, CSS and JavaScript, no frameworks, with a light and dark mode, and published on GitHub Pages.</p>
+    </article>
+  </section>
+
+  <section id="contact">
+    <h2><small>04</small> Contact</h2>
+    <p class="muted">Want to talk about IT, networks or studying at Inha? Write to me.</p>
+    <div class="cards">
+      <a class="card link" href="mailto:your-email@example.com"><h3>Email</h3><p>your-email@example.com</p></a>
+      <a class="card link" href="https://github.com/YOUR_USERNAME"><h3>GitHub</h3><p>github.com/YOUR_USERNAME</p></a>
+    </div>
+  </section>
+</main>
+
+<footer><p>© 2026 Salohiddin · Inha University in Tashkent · ID u2610340</p></footer>
+</body>
+</html>
